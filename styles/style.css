@@ -144,7 +144,7 @@ header {
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 150px;
-    background-image: url("/images/watch.png"), linear-gradient(to right, rgb(7, 144, 255), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
+    background-image: url("/images/watch.png"), linear-gradient(to right, rgba(1, 95, 172, 1), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -158,4 +158,78 @@ header {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
+}
+
+
+/* footer area */
+
+footer {
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    padding: 40px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.section-sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+footer .section-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact-info {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+
+.social-links {
+    margin-top: 32px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links img {
+    max-width: 40px;
+}
+
+.subscription-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-email {
+    border: 1px solid #FFFFFF;
+    background-color: #151414;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    padding: 20px;
+
+
+}
+
+form .btn-primary {
+    color: #FFFFFF;
+    background: #005FAC;
+    width: 50%;
+    padding: 15px;
 }
