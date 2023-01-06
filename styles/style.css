@@ -3,7 +3,11 @@
     margin: 0;
     font-family: ;
     font-family: 'Open Sans', sans-serif;
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
+}
+
+main {
+    background-color: #FFFFFF;
 }
 
 .btn-primary {
@@ -48,7 +52,7 @@ header {
     margin-bottom: 32px;
 }
 
-/* typography */
+/* typography  header*/
 .heading-title {
     font-weight: 700;
     font-size: 50px;
@@ -56,4 +60,102 @@ header {
 
 .heading-description {
     color: #FFFFFF;
+}
+
+
+/* previous failure section */
+
+.past-story {
+    width: 80%;
+    /* height: 80vh; */
+    margin: 0 auto;
+}
+
+.past-story-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.img-container img {
+    width: 70%;
+
+
+
+}
+
+.img-container {
+    padding-top: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.article-container {
+    margin-top: 200px;
+
+}
+
+.article-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.article-description {
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.failing-items {
+    list-style-type: square;
+    padding-left: 25px;
+
+}
+
+
+/* my plan styles */
+.my-plan {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.my-plan .article-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.plan-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+
+/* motivation banner */
+
+.motivation-banner-container {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    background-image: url("/images/watch.png"), linear-gradient(to right, rgb(7, 144, 255), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.motivation-banner-container {
+    padding: 60px 64px;
+}
+
+.motivation-banner-container .section-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
 }
