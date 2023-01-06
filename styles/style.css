@@ -3,8 +3,57 @@
     margin: 0;
     font-family: ;
     font-family: 'Open Sans', sans-serif;
+    /* border: 2px solid black; */
+}
+
+.btn-primary {
+    color: #005FAC;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 25px 20px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Heading styles */
+
+/* layout */
+header {
+    background-image: url('/images/banner/banner3.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-container {
+    text-align: right;
+    direction: rtl;
+    margin-top: 100px;
+    margin-right: 120px;
+    max-height: 60%;
+
+
 }
 
 
+.heading-title {
+    color: #FFFFFF;
+}
 
-/* Heading styles */
+.heading-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/* typography */
+.heading-title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.heading-description {
+    color: #FFFFFF;
+}
