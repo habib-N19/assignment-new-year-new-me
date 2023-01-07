@@ -23,7 +23,7 @@ main {
 
 /* layout */
 header {
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('../images/banner/banner3.png');
     height: 100vh;
     background-size: cover;
     display: flex;
