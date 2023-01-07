@@ -150,7 +150,7 @@ header {
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 150px;
-    background-image: url("/images/watch.png"), linear-gradient(to right, rgba(1, 95, 172, 1), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
+    background-image: url("../images/watch.png"), linear-gradient(to right, rgba(1, 95, 172, 1), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
     background-blend-mode: overlay;
     background-size: cover;
 }
