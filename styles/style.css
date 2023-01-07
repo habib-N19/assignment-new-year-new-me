@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     /* border: 1px solid red; */
 }
 
@@ -19,9 +19,12 @@ main {
     border-radius: 5px;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+}
+
 /* Heading styles */
 
-/* layout */
 header {
     background-image: url('../images/banner/banner3.png');
     height: 100vh;
@@ -34,7 +37,7 @@ header {
 .header-container {
     text-align: right;
     direction: rtl;
-    margin-top: 100px;
+    margin-top: 180px;
     margin-right: 120px;
     max-height: 60%;
 
@@ -51,7 +54,6 @@ header {
     margin-bottom: 32px;
 }
 
-/* typography  header*/
 .heading-title {
     font-weight: 700;
     font-size: 50px;
@@ -66,7 +68,6 @@ header {
 
 .past-story {
     width: 80%;
-    /* height: 80vh; */
     margin: 0 auto;
 }
 
@@ -86,7 +87,6 @@ header {
 .img-container {
     padding-top: 100px;
     object-fit: cover;
-    margin: 0 auto;
     padding-bottom: 100px;
 }
 
@@ -113,8 +113,6 @@ header {
 
 .failing-items {
     list-style-type: none;
-
-    /* padding-left: 2px; */
 
 }
 
@@ -148,9 +146,9 @@ header {
 .motivation-banner-container {
     width: 80%;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 150px;
-    background-image: url("../images/watch.png"), linear-gradient(to right, rgba(1, 95, 172, 1), rgba(0, 95, 171, .9), rgba(0, 96, 159, .4), rgba(255, 255, 255, .3));
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -177,6 +175,7 @@ header {
     margin-bottom: 150px;
     background: #FFF8F3;
     padding-bottom: 150px;
+    border-radius: 8px;
 }
 
 .time-management-container {
@@ -191,56 +190,65 @@ header {
 
 .time-management-container .section-description {
     margin: 40px 0;
+
     color: #757575;
 }
 
 .management-cards-container {
     display: flex;
     flex: 1;
-    /* width: 80%; */
-    /* margin: 0 auto; */
-    gap: 30px;
+    gap: 50px;
     justify-content: space-between;
 
 
 }
 
-.management-cards-container li {
-    list-style: none;
-    text-align: left;
-}
-
 .time-card {
     width: 50%;
-
     padding: 50px;
-    border: 1px solid white;
-    background-color: #FFFfff;
-    /* box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.19), 6px 6px 12px rgba(0, 0, 0, 0.23); */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding-left: 30px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: -3px -3px 7px #FFF8F3, 3px 3px 5px rgba(94, 104, 121, .9);
 
+}
+
+
+.card-img-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+
+}
+
+.time-card img {
+    width: 40px;
 }
 
 .time-card-title {
+    text-align: left;
     font-size: 22px;
     font-weight: 600;
-    /* padding: 10px 0; */
 }
 
 .time-card-sub-title {
     margin-top: 20px;
     margin-bottom: 15px;
     color: #757575;
+    text-align: left;
 }
 
 .time-card ul {
     margin-top: 20px;
-    padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .time-card li {
     padding-bottom: 10px;
+    list-style: circle;
+    text-align: left;
+    font-weight: 500;
 }
 
 /* footer area */
@@ -251,7 +259,9 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 250px;
-    padding: 40px;
+    padding: 90px;
+    padding-top: 130px;
+    /* padding-left: 60px; */
 }
 
 .section-title {
@@ -305,6 +315,7 @@ footer .section-description {
     color: #FFFFFF;
     margin-bottom: 16px;
     padding: 20px;
+    border-radius: 8px;
 
 
 }
@@ -314,4 +325,5 @@ form .btn-primary {
     background: #005FAC;
     width: 50%;
     padding: 15px;
+    border-radius: 8px;
 }
